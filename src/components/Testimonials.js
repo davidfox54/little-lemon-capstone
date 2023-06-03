@@ -1,4 +1,4 @@
-
+import TestimonialCard from "./TestimonialCard";
 
 function Testimonials() {
 
@@ -28,7 +28,21 @@ function Testimonials() {
     return (
         <section id='testimonials'>
             <h2>Testimonials</h2>
-
+            <TestimonialCard
+                rating={testimonials[0].rating}
+                name={testimonials[0].name}
+                review={testimonials[0].review}
+            />
+            <TestimonialCard
+                rating={testimonials[1].rating}
+                name={testimonials[1].name}
+                review={testimonials[1].review}
+            />
+            <TestimonialCard
+                rating={testimonials[2].rating}
+                name={testimonials[2].name}
+                review={testimonials[2].review}
+            />
         </section>
     )
 }
