@@ -1,10 +1,7 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  margin-left: 19.6%;
+  margin-right: 19.6%;
 }
 
 /* Header */
@@ -14,7 +11,7 @@
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-between;
-  margin: 20px 19.6% 10px;
+  margin: 20px 0 10px;
 }
 #nav {
   display: flex;
@@ -27,3 +24,5 @@
   display: inline;
   margin: 0 5px;
 }
+
+/* Main */
