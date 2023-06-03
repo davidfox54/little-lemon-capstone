@@ -4,7 +4,7 @@ function Footer() {
     return (
         <footer>
             <img src={restaurant} height={240} width={175}
-            alt='Footer restaurant picture'/>
+            alt='Restaurant peaceful'/>
             <div>
                 <h3>Doormat navigation</h3>
                 <ul>

@@ -1,17 +1,15 @@
+import HeroSection from './HeroSection';
+import Highlights from './Highlights';
+import Testimonials from './Testimonials';
+
 function Main() {
     return (
         <>
-            <section className='hero'>
+            <HeroSection />
+            <Highlights />
+            <Testimonials />
 
-            </section>
-
-            <section className='highlights'>
-
-            </section>
-            <section className='testimonials'>
-
-            </section>
-            <section className='about'>
+            <section id='about'>
 
             </section>
         </>
