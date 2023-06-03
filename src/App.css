@@ -34,7 +34,7 @@ h2 {
   display: inline;
   margin-right: 15px;
 }
-#nav a {
+a {
   color: black;
   text-decoration: none;
 }
@@ -190,7 +190,7 @@ card.testimonial {
 
 /* About */
 #about {
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 .about-container {
   display: grid;
@@ -236,4 +236,35 @@ card.testimonial {
   right: 0;
   top: 0;
   z-index: -1;
+}
+
+/* Footer */
+#footer {
+  background-color: #D9D9D9;
+}
+.footer-container {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
+  column-gap: 15px;
+}
+.footer-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+.footer-container ul li {
+  font-size: 13px;
+}
+.footer-image {
+  grid-column: 1/1;
+  margin-right: 10px;
+  padding-top: 5px;
+}
+.footer-doormat-nav {
+  grid-column: 2/2;
+}
+.footer-contact {
+  grid-column: 3/3;
+}
+.footer-socials {
+  grid-column: 4/4;
 }
