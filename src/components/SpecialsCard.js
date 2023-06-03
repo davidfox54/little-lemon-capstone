@@ -6,16 +6,18 @@ function SpecialsCard(props) {
             <img
                 alt='Special'
                 src={props.image}
-                width={230}
-                height={105}
             />
-            <h3>{props.name}</h3>
-            <p className='price'>{props.price}</p>
-            <p className='description'>{props.description}</p>
-            <p>
-                Order delivery
-                <img src={car} width={30} height={30} />
-            </p>
+            <div className='special-text'>
+                <div className='special-name'>
+                    <h3>{props.name}</h3>
+                    <p className='price'>{props.price}</p>
+                </div>
+                <p className='description'>{props.description}</p>
+                <div className='special-delivery'>
+                    <p className='delivery'>Order delivery</p>
+                    <img className='car' alt='Delivery' src={car} />
+                </div>
+            </div>
         </card>
     )
 }
