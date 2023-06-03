@@ -1,6 +1,7 @@
 import HeroSection from './HeroSection';
 import Highlights from './Highlights';
 import Testimonials from './Testimonials';
+import About from './About';
 
 function Main() {
     return (
@@ -8,10 +9,7 @@ function Main() {
             <HeroSection />
             <Highlights />
             <Testimonials />
-
-            <section id='about'>
-
-            </section>
+            <About />
         </>
     )
 }
