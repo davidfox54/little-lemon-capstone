@@ -187,3 +187,53 @@ card.testimonial {
 .testimonial-name {
   margin: 0 0 0 10px;
 }
+
+/* About */
+#about {
+  margin-bottom: 70px;
+}
+.about-container {
+  display: grid;
+  grid-template-columns: 50%;
+}
+.about-text {
+  margin-top: 40px;
+  grid-column: 1/2;
+}
+.about-text h2 {
+  color: #F4CE14;
+  font-weight: 800;
+  font-size: 45px;
+  margin: 0 0 10px 0;
+}
+.about-text h3 {
+  color: black;
+  font-size: 22px;
+  margin: 0;
+}
+.about-text p {
+  color: black;
+  width: 90%;
+}
+.about-images {
+  margin-top: 40px;
+  grid-column: 2/2;
+  position: relative;
+}
+.about-images img {
+  width: 18vw;
+  height: 320px;
+  border-radius: 16px;
+}
+.under {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  z-index: -1;
+}
+.over {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}

@@ -18,12 +18,14 @@ function About() {
                 </div>
                 <div className="about-images">
                     <img
+                        className='under'
                         src={chef}
                         alt='Chef cooking'
                         width={375}
                         height={440}
                     />
                     <img
+                        className='over'
                         src={bothChefs}
                         alt='Our chefs'
                         width={375}
