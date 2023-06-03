@@ -4,6 +4,7 @@ function SpecialsCard(props) {
     return (
         <card className='special'>
             <img
+                alt='Special'
                 src={props.image}
                 width={230}
                 height={105}

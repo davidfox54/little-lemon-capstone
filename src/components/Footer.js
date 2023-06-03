@@ -2,7 +2,7 @@ import restaurant from '../assets/restaurant.jpg';
 
 function Footer() {
     return (
-        <footer>
+        <footer className='container'>
             <img src={restaurant} height={240} width={175}
             alt='Restaurant peaceful'/>
             <div>

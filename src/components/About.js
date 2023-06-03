@@ -4,7 +4,7 @@ import bothChefs from '../assets/Mario and Adrian A.jpg';
 function About() {
     return (
         <section id='about'>
-            <div className='about-container'>
+            <div className='about-container container'>
                 <div className="about-text">
                     <h2>Little Lemon</h2>
                     <h3>Chicago</h3>

@@ -26,7 +26,7 @@ function Testimonials() {
     ]
 
     return (
-        <section id='testimonials'>
+        <section id='testimonials' className="container">
             <h2>Testimonials</h2>
             <TestimonialCard
                 rating={testimonials[0].rating}

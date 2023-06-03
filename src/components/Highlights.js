@@ -26,7 +26,7 @@ function Highlights() {
 
     return (
         <section id='highlights'>
-            <div className='highlights-container'>
+            <div className='highlights-container container'>
                 <div className='highlights-header'>
                     <h2>This weeks specials!</h2>
                     <button type='submit' className='btn'>

@@ -3,7 +3,7 @@ import restaurantFood from '../assets/restauranfood.jpg';
 function HeroSection() {
     return (
         <section id='hero'>
-            <div className='hero-container'>
+            <div className='hero-container container'>
                 <div className="hero-text">
                     <h1>Little Lemon</h1>
                     <h3>Chicago</h3>
@@ -20,8 +20,6 @@ function HeroSection() {
                     <img
                         src={restaurantFood}
                         alt='Restaurant food'
-                        width={375}
-                        height={440}
                     />
                 </div>
             </div>

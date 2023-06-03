@@ -6,13 +6,14 @@ function TestimonialCard(props) {
             <p className="testimonial-rating">{props.rating}</p>
             <div className="person">
                 <img
+                    alt='Testimonial'
                     src={headshot}
                     width={55}
                     height={55}
                 />
                 <p className='testimonial-name'>{props.name}</p>
             </div>
-            <p className='testimonial-rating'>{props.rating}</p>
+            <p className='testimonial-rating'>{props.review}</p>
         </card>
     )
 }
