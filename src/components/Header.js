@@ -1,5 +1,5 @@
 import logo from '../assets/Logo.svg';
-import Nav from './Nav';
+import NavLinks from './NavLinks';
 
 function Header() {
     return (
@@ -7,7 +7,9 @@ function Header() {
             <a href='/home'>
                 <img src={logo} alt='Logo' height={60} width={200} />
             </a>
-            <Nav />
+            <nav id='nav'>
+                <NavLinks />
+            </nav>
         </header>
     )
 }
