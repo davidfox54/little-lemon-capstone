@@ -1,7 +1,7 @@
 import Footer from "./Footer";
 import Header from "./Header";
 
-function Reservations() {
+function ReservationsPage() {
     return (
         <>
             <Header />
@@ -11,4 +11,4 @@ function Reservations() {
     )
 }
 
-export default Reservations;
+export default ReservationsPage;
