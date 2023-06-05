@@ -6,10 +6,12 @@ import About from './About';
 function Main() {
     return (
         <>
-            <HeroSection />
-            <Specials />
-            <Testimonials />
-            <About />
+            <main>
+                <HeroSection />
+                <Specials />
+                <Testimonials />
+                <About />
+            </main>
         </>
     )
 }
