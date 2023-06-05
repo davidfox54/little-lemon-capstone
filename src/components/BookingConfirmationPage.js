@@ -2,7 +2,7 @@ import Header from "./Header";
 import Footer from "./Footer";
 import { Link } from 'react-router-dom';
 
-function ReservationConfirmationPage() {
+function BookingConfirmationPage() {
     return (
         <>
             <Header />
@@ -21,4 +21,4 @@ function ReservationConfirmationPage() {
     )
 }
 
-export default ReservationConfirmationPage;
+export default BookingConfirmationPage;

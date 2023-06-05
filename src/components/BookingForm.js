@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 
-function Reservations() {
+function BookingForm() {
     return (
         <section id='reservations'>
             <div className='reservations-container container'>
@@ -35,4 +35,4 @@ function Reservations() {
     )
 }
 
-export default Reservations;
+export default BookingForm;

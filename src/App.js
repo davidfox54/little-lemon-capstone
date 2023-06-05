@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import HomePage from './components/HomePage';
-import ReservationsPage from './components/ReservationsPage';
-import ReservationConfirmationPage from './components/ReservationConfirmationPage';
+import BookingPage from './components/BookingPage';
+import BookingConfirmationPage from './components/BookingConfirmationPage';
 
 function App() {
   return (
@@ -11,8 +11,8 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<HomePage />}></Route>
-            <Route path="/reservations" element={<ReservationsPage />}></Route>
-            <Route path="/reservation-confirmation" element={<ReservationConfirmationPage />}></Route>
+            <Route path="/reservations" element={<BookingPage />}></Route>
+            <Route path="/reservation-confirmation" element={<BookingConfirmationPage />}></Route>
           </Routes>
         </BrowserRouter>
       </div>

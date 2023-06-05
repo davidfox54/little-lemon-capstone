@@ -1,15 +1,15 @@
 import Footer from "./Footer";
 import Header from "./Header";
-import Reservations from "./Reservations";
+import BookingForm from "./BookingForm";
 
-function ReservationsPage() {
+function BookingPage() {
     return (
         <>
             <Header />
-            <Reservations />
+            <BookingForm />
             <Footer />
         </>
     )
 }
 
-export default ReservationsPage;
+export default BookingPage;
