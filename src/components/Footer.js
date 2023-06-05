@@ -17,22 +17,22 @@ function Footer() {
                     <h5>Doormat navigation</h5>
                     <NavLinks />
                 </nav>
-                <article className='footer-contact'>
+                <div className='footer-contact'>
                     <h5>Contact</h5>
                     <ul>
                         <li><b>Address:</b> 123 Blvd ln</li>
                         <li><b>Email:</b> noreply@gmail.com</li>
                         <li><b>Phone Number:</b> 111-222-3333</li>
                     </ul>
-                </article>
-                <article className='footer-socials'>
+                </div>
+                <div className='footer-socials'>
                     <h5>Social Media Links</h5>
                     <ul>
                         <li>Instagram</li>
                         <li>Twitter</li>
                         <li>Facebook</li>
                     </ul>
-                </article>
+                </div>
             </div>
         </footer>
     )
