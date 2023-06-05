@@ -302,3 +302,17 @@ button.btn-submit {
   margin-bottom: 40px;
   width: 250px;
 }
+
+/* Reservation confirmation */
+#confirmation {
+  background-color: #495E57;
+  margin-left: 0;
+  margin-right: 0;
+  height: auto;
+}
+#confirmation h1 {
+  color: white;
+}
+#confirmation button {
+  margin-bottom: 30px;
+}

@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 
-
 function Reservations() {
     return (
         <section id='reservations'>
@@ -25,7 +24,7 @@ function Reservations() {
                         <option>Birthday</option>
                         <option>Anniversary</option>
                     </select>
-                    <Link to='/'>
+                    <Link to='/reservation-confirmation'>
                         <button type='submit' className="btn btn-submit">
                             Make your reservation
                         </button>
