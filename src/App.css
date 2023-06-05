@@ -53,7 +53,7 @@ a {
   margin-top: 40px;
   grid-column: 1/2;
 }
-.hero-text h1 {
+.hero-text h1, .reservations-container h1 {
   color: #F4CE14;
   font-weight: 800;
   font-size: 52px;
@@ -267,4 +267,38 @@ card.testimonial {
 }
 .footer-socials {
   grid-column: 4/4;
+}
+
+/* Reservations section */
+#reservations {
+  background-color: #495E57;
+  margin-left: 0;
+  margin-right: 0;
+  height: auto;
+}
+#reservations-title {
+  margin-top: 50px;
+  margin-bottom: 30px
+}
+#reservations form {
+  display: grid;
+  max-width: 200px;
+  gap: 10px;
+}
+.res-label {
+  color: white;
+  font-size: 22px;
+  margin: 0;
+}
+.res-input {
+  height: 30px;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 8px;
+  padding: 2px 10px;
+}
+button.btn-submit {
+  font-size: 16px;
+  margin-bottom: 40px;
+  width: 250px;
 }
