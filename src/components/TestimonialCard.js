@@ -2,7 +2,7 @@ import headshot from '../assets/headshot.png';
 
 function TestimonialCard(props) {
     return (
-        <card className='testimonial'>
+        <article className='testimonial'>
             <div className='testimonial-container'>
                 <p className="testimonial-rating"><b>Rating:</b> {props.rating}</p>
                 <div className="person">
@@ -16,7 +16,7 @@ function TestimonialCard(props) {
                 </div>
                 <p className='testimonial-review'><b>Review:</b> "{props.review}"</p>
             </div>
-        </card>
+        </article>
     )
 }
 

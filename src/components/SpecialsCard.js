@@ -2,7 +2,7 @@ import car from '../assets/car.svg';
 
 function SpecialsCard(props) {
     return (
-        <card className='special'>
+        <article className='special'>
             <img
                 alt='Special'
                 src={props.image}
@@ -18,7 +18,7 @@ function SpecialsCard(props) {
                     <img className='car' alt='Delivery' src={car} />
                 </div>
             </div>
-        </card>
+        </article>
     )
 }
 
